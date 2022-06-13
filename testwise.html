@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            const date = new Date();
+            if (date.getHours() > 7 && date.getHours() < 15) {
+                window.location.replace('https://www.testwise.com/platform/code');
+            }
+            else {
+                document.write('<h1>It is not currently time to take a test.');
+            }
+        </script>
+    </head>
+</html>
